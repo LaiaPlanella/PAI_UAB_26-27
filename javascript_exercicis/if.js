@@ -39,3 +39,43 @@
 // if (number3>number1 && number3>number2){
 //     console.log("El número més gran és: " + number3);
 // }   
+// 13.6.- Fent servir només if, escriure un programa que donat amb prompt un número de mes,
+// entre 1 i 12, escrigui per pantalla el nom del mes que correspon. 
+let num_mes = parseInt(prompt("Introdueix un número de mes (1-12):"));
+if (num_mes == 1) {
+    console.log("Gener");
+}
+if (num_mes == 2) {
+    console.log("Febrer");
+}   
+if (num_mes == 3) {
+    console.log("Març");
+}
+if (num_mes == 4) {
+    console.log("Abril");
+}       
+if (num_mes == 5) {
+    console.log("Maig");
+}   
+if (num_mes == 6) {
+    console.log("Juny");
+}   
+if (num_mes == 7) {
+    console.log("Juliol");
+}
+
+if (num_mes == 8) {
+    console.log("Agost");
+}   
+if (num_mes == 9) {
+    console.log("Setembre");
+}
+if (num_mes == 10) {
+    console.log("Octubre");
+}   
+if (num_mes == 11) {
+    console.log("Novembre");
+}
+if (num_mes == 12) {
+    console.log("Desembre");
+}
